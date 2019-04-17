@@ -1,0 +1,30 @@
+{
+  "name": "@writetome51/public-array-container-by-type-implementation",
+  "version": "1.0.0",
+  "description": "A private function for use inside subclasses of PublicArrayContainer that have the method .byType()",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/writetome51/public-array-container-by-type-implementation.git"
+  },
+  "keywords": [
+    "array",
+    "arrays",
+    "general",
+    "manipulation",
+    "private"
+  ],
+  "author": "Steve Thompson",
+  "license": "MIT",
+  "homepage": "https://github.com/writetome51/public-array-container-by-type-implementation#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "error-if-not-string": "~1.0.0",
+    "@writetome51/is-array-not-array": "~1.0.0",
+    "@writetome51/is-object-not-object": "~1.0.0"
+  }
+}
